@@ -6,21 +6,21 @@ public class Main {
         TaskManager taskManager = new TaskManager();
 
         // Adding tasks
-        taskManager.addTask("Complete project report", new Date(), 2, "Incomplete");
-        taskManager.addTask("Schedule meeting with team", new Date(), 1, "Incomplete");
-        taskManager.addTask("Buy groceries", new Date(), 3, "Incomplete");
+        taskManager.addTask("Study Data Structures", new Date(), 3, "Complete");
+        taskManager.addTask("Study Data Base", new Date(), 2, "Incomplete");
+        taskManager.addTask("Mobile Application Developer", new Date(), 1, "Incomplete");
 
-//         Updating task status
-        taskManager.updateTaskStatus("Complete project report", "Completed");
-
-        // Sorting tasks by priority
+       // Sorting tasks by priority
         taskManager.sortTasksByPriority();
+
+        //Updating task status
+        taskManager.updateTaskStatus("Study Data Structures", "Incomplete");
 
         // Displaying tasks after sorting
         taskManager.displayTasks();
 
         // Deleting a task
-        taskManager.deleteTask("Buy groceries");
+        taskManager.deleteTask("Study Data Base");
 
         // Displaying tasks after deletion
         taskManager.displayTasks();
