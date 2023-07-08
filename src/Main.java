@@ -15,6 +15,7 @@ public class Main {
 
         //Updating task status
         taskManager.updateTaskStatus("Study Data Structures", "Incomplete");
+        taskManager.updateTaskStatus("Mobile Application Developer", "Incomplete");
 
         // Displaying tasks after sorting
         taskManager.displayTasks();

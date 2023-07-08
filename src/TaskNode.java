@@ -7,7 +7,6 @@ class TaskNode {
     String status;
     TaskNode next;
     TaskNode previous;
-
     public TaskNode(String taskName, Date dueDate, int priority, String status) {
         this.taskName = taskName;
         this.dueDate = dueDate;
