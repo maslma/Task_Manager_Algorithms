@@ -102,7 +102,6 @@ class TaskManager {
         node1.previous = node2;
         node2.next = node1;
     }
-
     public void displayTasks() {
         TaskNode current = head;
         while (current != null) {

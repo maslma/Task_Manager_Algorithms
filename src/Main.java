@@ -8,7 +8,7 @@ public class Main {
         // Adding tasks
         taskManager.addTask("Study Data Structures", new Date(), 3, "Complete");
         taskManager.addTask("Study Data Base", new Date(), 2, "Incomplete");
-        taskManager.addTask("Mobile Application Developer", new Date(), 1, "Incomplete");
+        taskManager.addTask("Mobile Application Developer", new Date(), 1, "Complete");
 
        // Sorting tasks by priority
         taskManager.sortTasksByPriority();
